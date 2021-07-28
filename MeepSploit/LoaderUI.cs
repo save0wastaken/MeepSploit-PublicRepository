@@ -45,7 +45,7 @@ namespace MeePloit
                 panel3.Width = 399;
                 label2.Text = ("Checking if patched...");
                 WebClient patchcheck = new WebClient();
-                if (!patchcheck.DownloadString("https://raw.githubusercontent.com/save0wastaken/MeePloit/main/PatchCheck").Contains("patched"))
+                if (!patchcheck.DownloadString("https://raw.githubusercontent.com/save0wastaken/MeePloit/main/PatchCheck").Contains("notpatched"))
                 {
                     //false side
                     label2.Text = ("MeePloit is patched!");
