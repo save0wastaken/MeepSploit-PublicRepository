@@ -33,7 +33,7 @@ namespace MeePloit
             {
                 
                 label2.Text = ("You dont have the correct version of MeePloit!");
-                MessageBox.Show("You dont have the correct version of MeePloit! Please go to the github for the latest version!", "MeePloit");
+                MessageBox.Show("You dont have the correct version of MeePloit! Please go to the github for the latest version!", "MeepSploit");
                 System.Diagnostics.Process.Start("https://github.com/save0wastaken/MeePloit");
                 await Task.Delay(1000);
                 Application.Exit();
@@ -49,7 +49,7 @@ namespace MeePloit
                 {
                     //false side
                     label2.Text = ("MeePloit is patched!");
-                    MessageBox.Show("MeePloit is patched! Please wait a little bit until then check the github if you are on an older version!", "MeePloit");
+                    MessageBox.Show("MeePloit is patched! Please wait a little bit until then check the github if you are on an older version!", "MeepSploit");
                     System.Diagnostics.Process.Start("https://github.com/save0wastaken/MeePloit");
                     await Task.Delay(1000);
                     Application.Exit();
@@ -59,7 +59,7 @@ namespace MeePloit
                     //true side
                     await Task.Delay(3000);
                     panel3.Width = 475;
-                    label2.Text = ("Launching MeePloit...");
+                    label2.Text = ("Launching MeepSploit...");
                     panel3.Width = 475;
                     await Task.Delay(1000);
                     this.Hide();
